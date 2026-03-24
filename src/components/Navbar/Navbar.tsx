@@ -19,7 +19,7 @@ const Navbar = () => {
           <span className="relative size-10 shrink-0 overflow-hidden rounded-full border border-white/10 bg-[#0b0d10] shadow-[0_14px_40px_rgba(0,0,0,0.28)] sm:size-11 lg:size-12">
             <Image
               src={brand.logo}
-              alt="Logo Garage Zona Cero"
+              alt="Logo Zona Cero Garage"
               fill
               className="object-contain p-1.5"
               sizes="(min-width: 1024px) 48px, 40px"

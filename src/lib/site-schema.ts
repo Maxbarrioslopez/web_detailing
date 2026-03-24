@@ -236,7 +236,7 @@ export const getDefaultSiteSettings = (): SiteSettings => ({
   serviceArea: 'Santiago y comunas cercanas',
   businessHours: 'Lunes a Sabado · 09:00 a 19:00',
   instagram: '@garagezonacero',
-  facebook: 'Garage Zona Cero',
+  facebook: 'Zona Cero Garage',
   contactNote: 'Reservas con evaluacion previa, confirmacion manual y seguimiento por WhatsApp.',
 })
 
@@ -250,7 +250,7 @@ export const getDefaultGalleryItems = (): GalleryItem[] => {
       category: 'Exterior premium',
       description:
         'Trabajo orientado a recuperar reflejo, lectura de lineas y presencia en una carroceria de alto contraste.',
-      alt: 'Coupe negro con terminacion de alto brillo en taller Garage Zona Cero',
+      alt: 'Coupe negro con terminacion de alto brillo en taller Zona Cero Garage',
       imageUrl: brand.heroImage.src,
       featured: true,
       sortOrder: 1,
@@ -263,7 +263,7 @@ export const getDefaultGalleryItems = (): GalleryItem[] => {
       category: 'Pulido + proteccion',
       description:
         'Detalle de superficies, brillo uniforme y un acabado que transmite limpieza tecnica desde el primer vistazo.',
-      alt: 'Vehiculo detallado en zona de trabajo Garage Zona Cero',
+      alt: 'Vehiculo detallado en zona de trabajo Zona Cero Garage',
       imageUrl: brand.showcaseImage.src,
       featured: true,
       sortOrder: 2,
@@ -276,7 +276,7 @@ export const getDefaultGalleryItems = (): GalleryItem[] => {
       category: 'Presentacion final',
       description:
         'Cada trabajo se presenta con una puesta visual sobria, cuidada y alineada con una experiencia premium.',
-      alt: 'Logo y presentacion de marca Garage Zona Cero',
+      alt: 'Logo y presentacion de marca Zona Cero Garage',
       imageUrl: brand.heritageLogo.src,
       featured: true,
       sortOrder: 3,

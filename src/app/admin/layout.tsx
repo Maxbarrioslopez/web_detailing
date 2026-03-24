@@ -4,7 +4,7 @@ import AdminSidebar from '@/components/Admin/AdminSidebar'
 import { getAdminAccessState } from '@/lib/admin-auth'
 
 export const metadata: Metadata = {
-  title: 'Admin Demo | Garage Zona Cero',
+  title: 'Admin Demo | Zona Cero Garage',
   description: 'Panel demo de administracion para reservas, galeria y contenido web.',
 }
 

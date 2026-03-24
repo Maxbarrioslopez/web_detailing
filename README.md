@@ -1,6 +1,6 @@
-# Garage Zona Cero
+# Zona Cero Garage
 
-Aplicacion web construida con **Next.js 15 + App Router** para **Garage Zona Cero**, una marca de detailing automotriz premium. El proyecto combina una **landing comercial** de alto impacto con una **demo funcional de operacion interna** para reservas, clientes, contenido, galeria e inventario.
+Aplicacion web construida con **Next.js 15 + App Router** para **Zona Cero Garage**, una marca de detailing automotriz premium. El proyecto combina una **landing comercial** de alto impacto con una **demo funcional de operacion interna** para reservas, clientes, contenido, galeria e inventario.
 
 ## 1. Objetivo del proyecto
 
@@ -22,7 +22,7 @@ Esta base fue evolucionada para cubrir dos frentes:
 
 El proyecto ya incluye:
 
-- landing comercial responsive para Garage Zona Cero
+- landing comercial responsive para Zona Cero Garage
 - pagina publica `/agendar`
 - pagina publica `/mi-reserva`
 - panel interno `/admin`
@@ -334,7 +334,7 @@ Flujo esperado:
 ```powershell
 git init
 git add .
-git commit -m "feat: garage zona cero demo app"
+git commit -m "feat: zona cero garage demo app"
 git branch -M main
 git remote add origin https://github.com/Maxbarrioslopez/web_detailing.git
 git push -u origin main

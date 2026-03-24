@@ -28,7 +28,7 @@ const AdminSidebar = ({ demoMode }: AdminSidebarProps) => {
         <span className="relative size-12 shrink-0 overflow-hidden rounded-full border border-white/10 bg-[#0b0d10]">
           <Image
             src={brand.logo}
-            alt="Logo Garage Zona Cero"
+            alt="Logo Zona Cero Garage"
             fill
             className="object-contain p-1.5"
             sizes="48px"
@@ -36,7 +36,7 @@ const AdminSidebar = ({ demoMode }: AdminSidebarProps) => {
         </span>
         <div className="min-w-0">
           <p className="display-font text-base tracking-[0.14em] text-ink sm:text-lg">
-            Garage Zona Cero
+            Zona Cero Garage
           </p>
           <p className="mt-1 text-[0.68rem] uppercase tracking-[0.22em] text-muted">
             Admin demo

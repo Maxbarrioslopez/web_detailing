@@ -3,9 +3,9 @@ import ClientReservationManager from '@/components/Booking/ClientReservationMana
 import { getSiteSettings } from '@/lib/site-store'
 
 export const metadata: Metadata = {
-  title: 'Mi Reserva | Garage Zona Cero',
+  title: 'Mi Reserva | Zona Cero Garage',
   description:
-    'Consulta, cancela o reagenda tu reserva de Garage Zona Cero con un flujo simple y profesional.',
+    'Consulta, cancela o reagenda tu reserva de Zona Cero Garage con un flujo simple y profesional.',
 }
 
 const buildWhatsAppUrl = (rawValue: string) => {

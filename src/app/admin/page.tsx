@@ -43,7 +43,7 @@ export default async function AdminDashboardPage({ searchParams }: AdminDashboar
           <div className="space-y-3">
             <p className="eyebrow text-xs font-semibold text-accent">Dashboard</p>
             <h1 className="display-font text-4xl leading-tight text-ink sm:text-5xl">
-              Resumen operativo de Garage Zona Cero.
+              Resumen operativo de Zona Cero Garage.
             </h1>
             <p className="max-w-3xl text-base leading-7 text-muted">
               El panel ya opera como demo funcional: bookings persistentes, clientes derivados del

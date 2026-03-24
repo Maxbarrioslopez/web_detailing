@@ -156,7 +156,7 @@ export default async function Home() {
                 <div className="relative min-h-[360px] overflow-hidden rounded-[26px] sm:min-h-[480px] xl:min-h-[540px]">
                   <Image
                     src={brand.heroImage}
-                    alt="Garage Zona Cero trabajando un coupe negro de alto brillo"
+                    alt="Zona Cero Garage trabajando un coupe negro de alto brillo"
                     fill
                     priority
                     className="object-cover"
@@ -181,7 +181,7 @@ export default async function Home() {
                   <div className="relative mb-3 h-24 overflow-hidden rounded-[18px]">
                     <Image
                       src={brand.showcaseImage}
-                      alt="Vista del taller Garage Zona Cero"
+                      alt="Vista del taller Zona Cero Garage"
                       fill
                       className="object-cover"
                       sizes="192px"
@@ -200,7 +200,7 @@ export default async function Home() {
                     <span className="relative size-14 overflow-hidden rounded-full border border-white/10 bg-[#0b0d10]">
                       <Image
                         src={brand.logo}
-                        alt="Logo Garage Zona Cero"
+                        alt="Logo Zona Cero Garage"
                         fill
                         className="object-contain p-1.5"
                         sizes="56px"
@@ -288,7 +288,7 @@ export default async function Home() {
                 <div className="relative min-h-[380px]">
                   <Image
                     src={mainGalleryItem?.imageUrl || brand.heroImage}
-                    alt={mainGalleryItem?.alt || 'Trabajo destacado Garage Zona Cero'}
+                    alt={mainGalleryItem?.alt || 'Trabajo destacado Zona Cero Garage'}
                     fill
                     className="object-cover"
                     sizes="(min-width: 1280px) 40rem, 100vw"
@@ -313,7 +313,7 @@ export default async function Home() {
                   <div className="relative min-h-[230px]">
                     <Image
                       src={sideGalleryItem?.imageUrl || brand.showcaseImage}
-                      alt={sideGalleryItem?.alt || 'Detalle de trabajo Garage Zona Cero'}
+                      alt={sideGalleryItem?.alt || 'Detalle de trabajo Zona Cero Garage'}
                       fill
                       className="object-cover"
                       sizes="(min-width: 1280px) 28rem, 100vw"
@@ -349,7 +349,7 @@ export default async function Home() {
                     <div className="relative size-14 shrink-0 overflow-hidden rounded-full border border-white/10 bg-[#0b0d10]">
                       <Image
                         src={brand.logo}
-                        alt="Logo Garage Zona Cero"
+                        alt="Logo Zona Cero Garage"
                         fill
                         className="object-contain p-2"
                         sizes="56px"
@@ -374,7 +374,7 @@ export default async function Home() {
               <SectionHeader
                 eyebrow="Por que elegirnos"
                 title="Una marca pensada para clientes que valoran detalle real."
-                description="Garage Zona Cero se plantea como un servicio serio, sobrio y orientado a precision visual, limpieza de superficies y criterio tecnico en cada entrega."
+                description="Zona Cero Garage se plantea como un servicio serio, sobrio y orientado a precision visual, limpieza de superficies y criterio tecnico en cada entrega."
               />
 
               <div className="grid gap-3 sm:grid-cols-2">

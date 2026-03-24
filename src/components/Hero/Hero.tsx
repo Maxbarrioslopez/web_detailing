@@ -2,13 +2,13 @@
 import Image from 'next/image'
 
 const Hero = () => {
-  // Branding Garage Zona Cero
+  // Branding Zona Cero Garage
   return (
     <section className="bg-primary bg-gradient-to-br from-black via-gray-900 to-gray-800 min-h-[calc(100vh-4rem)] bg-no-repeat">
       <div className="mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-4 px-4 pt-16 pb-10 md:grid-cols-2 lg:p-4">
         <div className="flex min-h-48 flex-col justify-between lg:min-h-56 lg:max-w-[33.75rem]">
           <h1>
-            <span className="text-accent mb-2 block text-4xl font-extrabold tracking-tight">Garage Zona Cero</span>
+            <span className="text-accent mb-2 block text-4xl font-extrabold tracking-tight">Zona Cero Garage</span>
             <span className="text-neutral block text-2xl font-semibold">Detailing Automotriz Premium</span>
           </h1>
           <h2 className="text-neutral mt-4 text-lg font-light">
@@ -36,7 +36,7 @@ const Hero = () => {
               fill={true}
               priority={true}
               sizes="(min-width: 1024px) 25.75rem, (min-width: 768px) 20rem, (min-width: 640px) 15rem, 14rem"
-              alt="Garage Zona Cero - Detailing Automotriz Premium"
+              alt="Zona Cero Garage - Detailing Automotriz Premium"
               className="object-cover"
             />
           </div>

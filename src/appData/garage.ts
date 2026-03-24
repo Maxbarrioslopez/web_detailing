@@ -12,7 +12,7 @@ export type ServiceIconKey =
   | 'restore'
 
 export const brand = {
-  name: 'Garage Zona Cero',
+  name: 'Zona Cero Garage',
   eyebrow: 'Detailing automotriz premium',
   tagline: 'Precision, estetica y proteccion para vehiculos que exigen presencia.',
   description:

@@ -11,7 +11,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Agendar Servicio | Garage Zona Cero',
+  title: 'Agendar Servicio | Zona Cero Garage',
   description:
     'Reserva tu servicio de detailing con un flujo dedicado: datos del cliente, vehiculo, agenda, logistica y seleccion del tratamiento.',
 }
@@ -77,7 +77,7 @@ export default function BookingPage() {
               <div className="relative min-h-[320px] overflow-hidden rounded-[26px] sm:min-h-[420px] lg:min-h-[460px]">
                 <Image
                   src={brand.showcaseImage}
-                  alt="Garage Zona Cero preparando un vehiculo para entrega"
+                  alt="Zona Cero Garage preparando un vehiculo para entrega"
                   fill
                   priority
                   className="object-cover"

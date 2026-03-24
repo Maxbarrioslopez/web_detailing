@@ -15,7 +15,7 @@ const Footer = async () => {
               <span className="relative size-12 shrink-0 overflow-hidden rounded-full border border-white/10 bg-[#0b0d10] sm:size-14">
                 <Image
                   src={brand.logo}
-                  alt="Logo Garage Zona Cero"
+                  alt="Logo Zona Cero Garage"
                   fill
                   className="object-contain p-2"
                   sizes="(min-width: 640px) 56px, 48px"
@@ -86,7 +86,7 @@ const Footer = async () => {
         </div>
 
         <div className="relative z-10 mt-8 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs uppercase tracking-[0.2em] text-muted sm:flex-row sm:items-center sm:justify-between">
-          <p>Garage Zona Cero</p>
+          <p>Zona Cero Garage</p>
           <p>Cuidado estetico profesional para vehiculos</p>
           <p>Copyright {new Date().getFullYear()}</p>
         </div>

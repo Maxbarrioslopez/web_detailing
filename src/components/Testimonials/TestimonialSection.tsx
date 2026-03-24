@@ -16,7 +16,7 @@ const TestimonialSection: React.FC<TestimonialSectionProps> = ({ testimonials })
     <section id="testimonials">
       <SectionHeading
         title="Testimonios de Clientes"
-        subtitle="La experiencia de quienes confiaron en Garage Zona Cero para el cuidado de su auto."
+        subtitle="La experiencia de quienes confiaron en Zona Cero Garage para el cuidado de su auto."
       />
 
       <div className="hide-scrollbar my-8 flex gap-8 overflow-x-auto">

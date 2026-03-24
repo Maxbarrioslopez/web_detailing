@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
-export const alt = 'Garage Zona Cero - Detailing automotriz premium'
+export const alt = 'Zona Cero Garage - Detailing automotriz premium'
 
 export const size = {
   width: 1200,
@@ -56,7 +56,7 @@ export default async function Image() {
               textTransform: 'uppercase',
               color: '#f4efe8',
             }}>
-            Garage Zona Cero
+            Zona Cero Garage
           </h1>
           <p
             style={{

@@ -215,7 +215,7 @@ const action = async (_: ContactState | null, formData: FormData): Promise<Conta
           payload.append(key, value)
         })
 
-        payload.append('subject', `Reserva Garage Zona Cero | ${bookingMode} | ${selectedDate}`)
+        payload.append('subject', `Reserva Zona Cero Garage | ${bookingMode} | ${selectedDate}`)
         payload.append(
           'bookingSummary',
           bookingMode === 'pack'

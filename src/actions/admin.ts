@@ -184,7 +184,7 @@ export const createGalleryItemAction = async (formData: FormData) => {
       title: getValue(formData, 'title') || 'Nueva imagen',
       category: getValue(formData, 'category') || 'Galeria',
       description: getValue(formData, 'description') || 'Imagen agregada desde el panel admin.',
-      alt: getValue(formData, 'alt') || 'Imagen de galeria Garage Zona Cero',
+      alt: getValue(formData, 'alt') || 'Imagen de galeria Zona Cero Garage',
       imageUrl,
       featured: getCheckboxValue(formData, 'featured'),
       sortOrder: Number(getValue(formData, 'sortOrder') || 99),
