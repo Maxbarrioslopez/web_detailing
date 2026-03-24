@@ -1,0 +1,57 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js / build artifacts
+.next/
+out/
+build/
+dist/
+.turbo/
+*.tsbuildinfo
+
+# environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# local runtime data
+content/garage-demo/
+public/uploads/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dev-server.log
+dev-server.err.log
+
+# editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# coverage / testing
+coverage/
+.nyc_output/
+
+# deployment
+.vercel/
+
+# misc
+*.pem
+next-env.d.ts
