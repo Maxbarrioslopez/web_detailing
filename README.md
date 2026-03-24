@@ -210,7 +210,7 @@ SUPABASE_STORAGE_BUCKET=garage-zona-cero
 ### Significado
 
 - `NEXT_PUBLIC_SITE_URL`: URL base del proyecto
-- `DEMO_MODE`: habilita acceso libre a `/admin`
+- `DEMO_MODE`: habilita acceso libre a `/admin`; si no se define, el proyecto ahora lo considera activo por defecto
 - `DATA_PROVIDER`: hoy soporta `demo`; `supabase` queda como siguiente etapa
 - `CONTACT_FORM_ACTION_URL`: webhook opcional para duplicar notificaciones
 - variables `SUPABASE_*`: preparacion para persistencia y auth reales
@@ -259,6 +259,8 @@ DEMO_MODE=false
 ```
 
 la estructura queda preparada para auth futura y el panel deja de abrirse libremente.
+
+Si `DEMO_MODE` no existe en el entorno, el comportamiento por defecto es `true`.
 
 Puntos de extension:
 

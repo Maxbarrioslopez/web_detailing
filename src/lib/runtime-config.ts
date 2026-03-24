@@ -2,7 +2,15 @@ export type DataProvider = 'demo' | 'supabase'
 
 const getEnv = (key: string) => process.env[key]?.trim() || ''
 
-export const isDemoModeEnabled = () => getEnv('DEMO_MODE').toLowerCase() === 'true'
+export const isDemoModeEnabled = () => {
+  const value = getEnv('DEMO_MODE').toLowerCase()
+
+  if (!value) {
+    return true
+  }
+
+  return value !== 'false'
+}
 
 export const getDataProvider = (): DataProvider =>
   getEnv('DATA_PROVIDER').toLowerCase() === 'supabase' ? 'supabase' : 'demo'
