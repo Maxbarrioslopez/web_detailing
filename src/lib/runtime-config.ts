@@ -34,3 +34,8 @@ export const getRuntimeFeatureState = () => ({
   supabaseReady: isSupabaseConfigured(),
   storageBucket: getSupabaseConfig().storageBucket,
 })
+
+export const isVercelRuntime = () => {
+  const vercelFlag = getEnv('VERCEL').toLowerCase()
+  return vercelFlag === '1' || Boolean(getEnv('VERCEL_URL'))
+}

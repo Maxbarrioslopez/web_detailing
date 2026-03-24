@@ -1,5 +1,6 @@
 import { mkdir, unlink, writeFile } from 'node:fs/promises'
 import path from 'node:path'
+import { isVercelRuntime } from '@/lib/runtime-config'
 
 const UPLOAD_ROOT = path.join(process.cwd(), 'public', 'uploads')
 
@@ -18,8 +19,16 @@ const ensureDirectory = async (directoryName: string) => {
 
 const buildPublicPath = (directoryName: string, fileName: string) => `/uploads/${directoryName}/${fileName}`
 
+const toDataUrl = (buffer: Buffer, mimeType: string) =>
+  `data:${mimeType || 'application/octet-stream'};base64,${buffer.toString('base64')}`
+
 export const saveUploadedImage = async (file: File, directoryName = 'gallery') => {
   const buffer = Buffer.from(await file.arrayBuffer())
+
+  if (isVercelRuntime()) {
+    return toDataUrl(buffer, file.type)
+  }
+
   const targetDirectory = await ensureDirectory(directoryName)
   const safeFileName = sanitizeFileName(file.name || 'image-upload')
   const uniqueFileName = `${Date.now()}-${safeFileName}`
@@ -37,7 +46,7 @@ export const replaceStoredImage = async (
 ) => {
   const nextPath = await saveUploadedImage(nextFile, directoryName)
 
-  if (currentPath && currentPath.startsWith('/uploads/')) {
+  if (currentPath && currentPath.startsWith('/uploads/') && !isVercelRuntime()) {
     const currentFilePath = path.join(process.cwd(), 'public', currentPath.replace(/^\//, ''))
 
     try {
@@ -51,7 +60,7 @@ export const replaceStoredImage = async (
 }
 
 export const deleteStoredImage = async (publicPath: string) => {
-  if (!publicPath.startsWith('/uploads/')) {
+  if (!publicPath.startsWith('/uploads/') || isVercelRuntime()) {
     return
   }
 
